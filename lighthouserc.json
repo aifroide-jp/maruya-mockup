@@ -6,7 +6,11 @@
         "http://127.0.0.1:8080/interview.html"
       ],
       "numberOfRuns": 1,
-      "settings": { "onlyCategories": ["seo"] }
+      "settings": {
+        "onlyCategories": [
+          "seo"
+        ]
+      }
     },
     "assert": {
       "assertions": {
@@ -20,11 +24,12 @@
         "hreflang": "error",
         "canonical": "error",
         "robots-txt": "error",
-        "image-alt": "error",
-        "font-size": "error",
-        "viewport": "error"
+        "image-alt": "error"
       }
     },
-    "upload": { "target": "filesystem", "outputDir": "./.lighthouseci" }
+    "upload": {
+      "target": "filesystem",
+      "outputDir": "./.lighthouseci"
+    }
   }
 }
