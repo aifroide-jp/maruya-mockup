@@ -1,6 +1,6 @@
 {
   "defaults": {
-    "standard": "WCAG2AA",
+    "standard": "WCAG2A",
     "timeout": 30000,
     "chromeLaunchConfig": { "args": ["--no-sandbox", "--disable-dev-shm-usage"] }
   },

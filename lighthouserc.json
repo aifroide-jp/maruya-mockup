@@ -1,0 +1,30 @@
+{
+  "ci": {
+    "collect": {
+      "url": [
+        "http://127.0.0.1:8080/index.html",
+        "http://127.0.0.1:8080/interview.html"
+      ],
+      "numberOfRuns": 1,
+      "settings": { "onlyCategories": ["seo"] }
+    },
+    "assert": {
+      "assertions": {
+        "categories:seo": "off",
+        "is-crawlable": "off",
+        "document-title": "error",
+        "meta-description": "error",
+        "http-status-code": "error",
+        "link-text": "error",
+        "crawlable-anchors": "error",
+        "hreflang": "error",
+        "canonical": "error",
+        "robots-txt": "error",
+        "image-alt": "error",
+        "font-size": "error",
+        "viewport": "error"
+      }
+    },
+    "upload": { "target": "filesystem", "outputDir": "./.lighthouseci" }
+  }
+}

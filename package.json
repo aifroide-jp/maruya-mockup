@@ -9,10 +9,12 @@
     "lint:css": "stylelint \"css/**/*.css\"",
     "lint:links": "linkinator ./ --server-root ./ --recurse --skip \"maruya\\\\.pro\"",
     "lint:a11y": "pa11y-ci",
-    "lint": "npm run lint:html && npm run lint:css && npm run lint:links && npm run lint:a11y",
-    "serve": "http-server . -p 8080 --silent"
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:links && npm run lint:a11y && npm run lint:seo",
+    "serve": "http-server . -p 8080 --silent",
+    "lint:seo": "lhci autorun --config=lighthouserc.json"
   },
   "devDependencies": {
+    "@lhci/cli": "^0.15.0",
     "html-validate": "^11.4.0",
     "http-server": "^14.1.1",
     "linkinator": "^8.1.0",

@@ -38,5 +38,8 @@ jobs:
             sleep 1
           done
 
-      - name: アクセシビリティチェック (WCAG 2.1 AA)
+      - name: アクセシビリティチェック (WCAG 2.1 A)
         run: npm run lint:a11y
+
+      - name: SEO チェック (Lighthouse)
+        run: npm run lint:seo
