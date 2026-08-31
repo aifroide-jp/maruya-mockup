@@ -14,7 +14,6 @@
   --color-gray-border: #E0E8EB;
 
   --font-sans: 'Noto Sans JP', sans-serif;
-  --font-serif: 'Noto Serif JP', serif;
 }
 
 *, *::before, *::after {
@@ -83,7 +82,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .c-section-header__title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.8rem;
   color: var(--color-navy);
   line-height: 1.4;
@@ -268,7 +267,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .p-hero__title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 2.4rem;
   color: var(--color-navy);
   line-height: 1.3;
@@ -410,7 +409,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .p-reasons__title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.25rem;
   color: var(--color-navy);
   margin-bottom: 10px;
@@ -455,7 +454,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .p-service__name {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.4rem;
   color: var(--color-navy);
   margin-bottom: 12px;
@@ -504,7 +503,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .p-president__title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.5rem;
   color: var(--color-navy);
   margin: 6px 0 20px;
@@ -672,7 +671,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .p-contact__card-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.3rem;
   color: var(--color-navy);
   margin-bottom: 20px;
@@ -800,7 +799,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .p-interview__title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 2rem;
   color: var(--color-navy);
   line-height: 1.4;
@@ -856,7 +855,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .p-interview__quote {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.35rem;
   color: var(--color-navy);
   border-top: 2px solid var(--color-main);
@@ -884,7 +883,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .p-interview__profile-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.1rem;
   color: var(--color-navy);
   margin-bottom: 12px;
@@ -908,7 +907,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .p-interview__cta-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.4rem;
   color: var(--color-navy);
   margin-bottom: 8px;
