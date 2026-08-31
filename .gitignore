@@ -1,0 +1,5 @@
+# OS
+.DS_Store
+
+# 作業用の観測ログ（リポジトリ管理外）
+skill-observations/

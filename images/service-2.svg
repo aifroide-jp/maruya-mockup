@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="クラウド会計ソフトによるバックオフィスの仕組み化">
+  <rect width="400" height="300" fill="#F1F7F8"/>
+  <circle cx="200" cy="150" r="120" fill="#BFE4E6" opacity="0.4"/>
+  <g fill="none" stroke="#001C59" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- クラウド -->
+    <path fill="#FFFFFF" d="M148,112 a26,26 0 0 1 4,-51 a40,40 0 0 1 76,-12 a28,28 0 0 1 20,63 z"/>
+    <!-- データの同期 -->
+    <path stroke="#089DA7" d="M176,134 v22 M170,148 l6,8 l6,-8"/>
+    <path stroke="#089DA7" d="M224,156 v-22 M218,142 l6,-8 l6,8"/>
+    <!-- ノートPC -->
+    <rect x="130" y="166" width="140" height="88" rx="7" fill="#FFFFFF"/>
+    <path d="M108,254 h184 a8,8 0 0 1 -8,14 h-168 a8,8 0 0 1 -8,-14 z" fill="#FFFFFF"/>
+    <path d="M130,188 h140"/>
+    <circle fill="#00709F" stroke="none" cx="144" cy="177" r="3.5"/>
+    <circle fill="#00709F" stroke="none" cx="156" cy="177" r="3.5"/>
+    <path stroke="#00709F" d="M150,210 h100 M150,230 h64"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="13週先読み資金繰り表と分析資料">
+  <rect width="400" height="300" fill="#F1F7F8"/>
+  <circle cx="205" cy="146" r="118" fill="#BFE4E6" opacity="0.4"/>
+  <g fill="none" stroke="#001C59" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 資金繰り表 -->
+    <rect x="72" y="48" width="152" height="196" rx="9" fill="#FFFFFF"/>
+    <path d="M72,80 h152"/>
+    <path stroke="#00709F" d="M92,104 h112 M92,128 h112 M92,152 h112 M92,176 h74"/>
+    <path stroke="#089DA7" stroke-width="7" d="M92,64 h34"/>
+    <!-- 分析グラフのカード -->
+    <rect x="180" y="140" width="164" height="118" rx="9" fill="#FFFFFF"/>
+    <path stroke="#00709F" d="M202,228 L238,196 L266,212 L308,168"/>
+    <path stroke="#00709F" d="M292,168 h16 v16"/>
+    <circle fill="#00709F" stroke="none" cx="202" cy="228" r="5"/>
+    <circle fill="#00709F" stroke="none" cx="238" cy="196" r="5"/>
+    <circle fill="#00709F" stroke="none" cx="266" cy="212" r="5"/>
+    <path d="M202,244 h106"/>
+  </g>
+</svg>

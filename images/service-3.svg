@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="経営者と膝を突き合わせて相談に応じる様子">
+  <rect width="400" height="300" fill="#F1F7F8"/>
+  <circle cx="200" cy="150" r="120" fill="#BFE4E6" opacity="0.4"/>
+  <g fill="none" stroke="#001C59" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 向かい合う吹き出し -->
+    <path fill="#FFFFFF" d="M74,54 h108 a10,10 0 0 1 10,10 v44 a10,10 0 0 1 -10,10 h-58 l-18,16 v-16 h-32 a10,10 0 0 1 -10,-10 v-44 a10,10 0 0 1 10,-10 z"/>
+    <path stroke="#00709F" d="M96,80 h64 M96,98 h44"/>
+    <path fill="#FFFFFF" stroke="#089DA7" d="M226,86 h100 a10,10 0 0 1 10,10 v40 a10,10 0 0 1 -10,10 h-30 l-18,16 v-16 h-52 a10,10 0 0 1 -10,-10 v-40 a10,10 0 0 1 10,-10 z"/>
+    <path stroke="#089DA7" d="M246,110 h60 M246,128 h38"/>
+    <!-- 向かい合う2人 -->
+    <circle cx="126" cy="190" r="24"/>
+    <path d="M88,268 v-16 c0,-21 17,-38 38,-38 s38,17 38,38 v16"/>
+    <circle cx="274" cy="190" r="24"/>
+    <path d="M236,268 v-16 c0,-21 17,-38 38,-38 s38,17 38,38 v16"/>
+  </g>
+</svg>
